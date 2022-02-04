@@ -18,7 +18,7 @@ public class EmployeeController {
 
     @GetMapping("/test")
     public String test() {
-        return "Hello this is test controller response.";
+        return "Hello this is test controller response";
     }
 
     @GetMapping("/getEmployees")
